@@ -7,7 +7,7 @@ import { ResponsiveContainer, AreaChart, CartesianGrid, XAxis, YAxis, Line, Tool
 
 type Props = {}
 
-const Row1 = (props: Props) => {
+const First = (props: Props) => {
 
    const { data } = useGetKpisQuery();
    console.log('data: ', data)
@@ -131,4 +131,4 @@ const Row1 = (props: Props) => {
   )
 }
 
-export default Row1
+export default First

@@ -6,7 +6,7 @@ import { Box, Typography, useTheme } from '@mui/material'
 import { useMemo } from 'react'
 import { CartesianGrid, Cell, Legend, Line, LineChart, Pie, PieChart, ResponsiveContainer, Scatter, ScatterChart, Tooltip, XAxis, YAxis, ZAxis } from 'recharts'
 
-const Row2 = () => {
+const Second = () => {
 
   const { data: productData } = useGetProductsQuery();
   const { data: operationalData } = useGetKpisQuery();
@@ -158,4 +158,4 @@ const Row2 = () => {
   )
 }
 
-export default Row2
+export default Second

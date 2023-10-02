@@ -6,7 +6,7 @@ import { DataGrid, GridCellParams } from '@mui/x-data-grid'
 
 type Props = {}
 
-const Row1 = (props: Props) => {
+const First = (props: Props) => {
 
   const { data: transactionData } = useGetTransactionsQuery();
   const { data: productData} = useGetProductsQuery();
@@ -119,4 +119,4 @@ const Row1 = (props: Props) => {
   )
 }
 
-export default Row1
+export default First

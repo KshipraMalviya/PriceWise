@@ -1,7 +1,7 @@
 
-# PriceWise-ML
+# PriceWise
 
-PriceWise-ML is a full stack (MERN) responsive dashboard application that has a beautiful landing page. It consists of a lot of KPIs (key performance indicators) and information that business persons can display and keep track of their finances for their company.
+PriceWise is a full stack (MERN) responsive dashboard application that has a beautiful landing page. It consists of a lot of KPIs (key performance indicators) and information that business persons can display and keep track of their finances for their company.
 There are multiple charts and tables present on the dashboard. Recharts has been used to build area charts, line charts, bar charts, pie charts, scatter plots and tables have been built using Material UI.
 
 The application also consists of a Predictions page where information on the actual revenue for the current year is plotted. Basic linear regression is used for finding the best fit line using which revenue is predicted for the next year.

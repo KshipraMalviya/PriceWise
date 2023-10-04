@@ -6,6 +6,8 @@ import { Box, Typography, useTheme } from '@mui/material'
 import { useMemo } from 'react'
 import { CartesianGrid, Cell, Legend, Line, LineChart, Pie, PieChart, ResponsiveContainer, Scatter, ScatterChart, Tooltip, XAxis, YAxis, ZAxis } from 'recharts'
 
+// Second row of the main dashboard page
+
 const Second = () => {
 
   const { data: productData } = useGetProductsQuery();

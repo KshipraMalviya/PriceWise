@@ -1,4 +1,6 @@
-export const kpis = [
+// There are three tables - kpis, products, transactions 
+
+export const kpis = [   // Key Performance Indicators
     {
       _id: "63bf8239f03239e002001612",
       totalProfit: "$212000.00",

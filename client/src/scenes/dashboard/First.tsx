@@ -7,6 +7,8 @@ import { ResponsiveContainer, AreaChart, CartesianGrid, XAxis, YAxis, Line, Tool
 
 type Props = {}
 
+// First row of the main dashboard page
+
 const First = (props: Props) => {
 
    const { data } = useGetKpisQuery();
